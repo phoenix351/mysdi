@@ -6,10 +6,15 @@ const COLORS = {
   gray: "#83829A",
   gray2: "#C1C0C8",
 
-  white: "#F3F4F8",
+  white: "#fff",
   lightWhite: "#FAFAFC",
-  mint: '#61C9A8',
-  antiqueWhite: '#F4F4F4'
+  mint: "#61C9A8",
+  antiqueWhite: "#F4F4F4",
+  // color sikat data
+  orange: "#e28a3a",
+  blue: "#2995cb",
+  green: "#75b647",
+  red: "#941a1d",
 };
 
 const FONT = {

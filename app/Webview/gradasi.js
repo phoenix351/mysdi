@@ -39,6 +39,7 @@ export default class WebViewPage extends Component {
     return (
       <>
         <StatusBar barStyle="dark-content" />
+
         <Stack.Screen
           options={{
             headerStyle: { backgroundColor: COLORS.lightWhite },
@@ -47,13 +48,13 @@ export default class WebViewPage extends Component {
             // headerLeft: ()=>(
             //   <ScreenHeaderBtn iconUrl={images.logo} dimension="100%"/>
             // ),
-            headerTitle: "Sipedas Mantap!",
+            headerTitle: "Gradasi TKDN",
           }}
         />
 
         {isLoading && <LoadingScreen />}
         <WebView
-          source={{ uri: "https://monitoringbps.com/web" }}
+          source={{ uri: "https://www.adminpia.com/gradasi-dashboard" }}
           ref={this.WEBVIEW_REF}
           onNavigationStateChange={this.onNavigationStateChange.bind(this)}
           onLoadStart={() => this.setState({ isLoading: true })}

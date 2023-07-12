@@ -14,11 +14,11 @@
     },
     "extra": {
       "eas": {
-        "projectId": "4110fe97-b36b-405e-8aa4-aeadc2629a2a"
+        "projectId": "63ab7177-08c8-4398-982a-851d8450b9df"
       }
     },
     "android": {
-      "package": "com.seleksi7100.MySdi"
+      "package": "com.bps7100.MySdi"
     }
   }
 }
