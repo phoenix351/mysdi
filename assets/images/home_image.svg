@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 109.83 195.26">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+        opacity: .2;
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient-2);
+        opacity: .5;
+      }
+
+      .cls-3 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-4 {
+        fill: none;
+      }
+
+      .cls-5 {
+        fill: url(#linear-gradient-3);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-4" width="109.83" height="195.26" rx="4.16" ry="4.16"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="64.94" y1="112.36" x2="49.37" y2="-83.07" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#000"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="-1430.27" y1="101.95" x2="-1445.84" y2="-93.48" gradientTransform="translate(-1383.33) rotate(-180) scale(1 -1)" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="62.83" y1="-18.24" x2="176.47" y2="89.99" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="OBJECTS">
+    <g class="cls-3">
+      <g>
+        <path class="cls-1" d="m-21.05,47.4S1.92,80.49,26.84,80.49s38.15-12.46,58.01-12.46,29.2,19.85,46.33,19.85V-70.56H-21.05V47.4Z"/>
+        <path class="cls-2" d="m132.92,36.98s-22.97,33.09-47.88,33.09-38.15-12.46-58.01-12.46-29.2,19.85-46.33,19.85V-80.97h152.22V36.98Z"/>
+        <path class="cls-5" d="m-23.09,30.07S-.12,63.16,24.79,63.16s38.15-12.46,58.01-12.46,29.2,19.85,46.33,19.85V-87.88H-23.09V30.07Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

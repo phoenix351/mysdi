@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "scheme": "acme",
+    "web": {
+      "bundler": "metro"
+    },
+    "name": "MySdi",
+    "slug": "MySdi",
+    "icon": "./assets/images/logo.png",
+    "splash": {
+      "image": "./assets/images/logo.png",
+      "width": 10,
+      "backgroundColor": "#fff"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4110fe97-b36b-405e-8aa4-aeadc2629a2a"
+      }
+    },
+    "android": {
+      "package": "com.seleksi7100.MySdi"
+    }
+  }
+}
