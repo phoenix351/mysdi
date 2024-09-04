@@ -71,12 +71,7 @@ const Welcome = () => {
       namaFile: "bpsSulut",
       logoPath: images.bps,
     },
-    {
-      key: 6,
-      name: "Gradasi TKDN",
-      namaFile: "gradasi",
-      logoPath: images.gradasi,
-    },
+    
   ];
 
   return (
