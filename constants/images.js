@@ -4,6 +4,7 @@ import home_image from "../assets/images/home_image.png";
 import home_image_bottom from "../assets/images/home_image_bottom.png";
 import romantik from "../assets/images/romantik.png";
 import gradasi from "../assets/images/gradasi.png";
+import ppid from "../assets/images/ppid.png";
 import silastik from "../assets/images/silastik.png";
 import fordone from "../assets/images/fordone.png";
 import sipedas from "../assets/images/sipedas.jpg";
@@ -14,7 +15,7 @@ export default {
   logo,
   home_image,
   home_image_bottom,
-
+  ppid,
   romantik,
   gradasi,
   silastik,

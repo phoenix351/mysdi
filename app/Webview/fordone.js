@@ -54,7 +54,7 @@ export default class WebViewPage extends Component {
         />
         {isLoading && <LoadingScreen />}
         <WebView
-          source={{ uri: "https://webapps.bps.go.id/sulut/fordone/" }}
+          source={{ uri: "https://fordone.web.bps.go.id" }}
           ref={this.WEBVIEW_REF}
           onNavigationStateChange={this.onNavigationStateChange.bind(this)}
           onLoadStart={() => this.setState({ isLoading: true })}

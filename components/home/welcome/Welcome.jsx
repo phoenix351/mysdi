@@ -71,7 +71,12 @@ const Welcome = () => {
       namaFile: "bpsSulut",
       logoPath: images.bps,
     },
-    
+    {
+      key: 6,
+      name: "PPID BPS",
+      namaFile: "ppid",
+      logoPath: images.ppid,
+    },
   ];
 
   return (

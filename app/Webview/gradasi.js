@@ -48,13 +48,13 @@ export default class WebViewPage extends Component {
             // headerLeft: ()=>(
             //   <ScreenHeaderBtn iconUrl={images.logo} dimension="100%"/>
             // ),
-            headerTitle: "Gradasi TKDN",
+            headerTitle: "PPID BPS",
           }}
         />
 
         {isLoading && <LoadingScreen />}
         <WebView
-          source={{ uri: "https://www.adminpia.com/gradasi-dashboard" }}
+          source={{ uri: "https://ppid.bps.go.id/?mfd=0000" }}
           ref={this.WEBVIEW_REF}
           onNavigationStateChange={this.onNavigationStateChange.bind(this)}
           onLoadStart={() => this.setState({ isLoading: true })}
